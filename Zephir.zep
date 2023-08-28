@@ -14,3 +14,8 @@ west build -t run
              };
      };
 };
+
+k_queue_alloc_append()
+magic_cookie()
+
+unset
