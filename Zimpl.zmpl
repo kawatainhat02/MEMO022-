@@ -15,3 +15,5 @@ forall <v> in V - {"s","t"}:
 sum<i,v> in dminus(v): x[i,v] == sum<v,i> in dplus(v): x[v,i];
 subto uf:
 sum<s,i> in dplus("s"): x[s,i] == 1;
+
+set V:= {read "nodes.txt" as "<1s>"}; set A:= {read "arcs.txt" as "<1s,2s>"}; param c[A] := read "arcs.txt" as "<1s,2s>3n";
