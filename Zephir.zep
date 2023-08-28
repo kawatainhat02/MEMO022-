@@ -19,3 +19,10 @@ k_queue_alloc_append()
 magic_cookie()
 
 unset
+enum cipher_mode {
+	CRYPTO_CIPHER_MODE_ECB = ,
+	CRYPTO_CIPHER_MODE_CBC = ,
+	CRYPTO_CIPHER_MODE_CTR = ,
+	CRYPTO_CIPHER_MODE_CCM = ,
+	CRYPTO_CIPHER_MODE_GCM = ,
+};
