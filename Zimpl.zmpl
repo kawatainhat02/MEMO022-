@@ -33,3 +33,32 @@ set V:= {read "nodes.txt" as "<1s>"}; set A:= {read "arcs.txt" as "<1s,2s>"}; pa
 -O 
 -r 
 -V
+
+a∧b, a**b a+b
+a-b
+a*b
+a/b
+a mod b
+abs(a)
+sgn(a)
+floor(a)
+ceil(a)
+round(a)
+a!
+min(S)
+min(s in S) e(s) 
+max(S)
+max(s in S) e(s)
+min(a,b,c,...,n) 
+max(a,b,c,...,n) 
+sum(s in S) e(s) 
+prod(s in S) e(s) 
+card(S) 
+random(m,n) 
+ord(A,n,c)
+length(s)
+if a then b
+else c end
+sqrt(a) square root
+log(a) logarithm to base 10 
+ln(a) natural logarithm exp(a)
