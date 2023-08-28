@@ -17,3 +17,19 @@ subto uf:
 sum<s,i> in dplus("s"): x[s,i] == 1;
 
 set V:= {read "nodes.txt" as "<1s>"}; set A:= {read "arcs.txt" as "<1s,2s>"}; param c[A] := read "arcs.txt" as "<1s,2s>3n";
+
+-t format
+-o name
+-F filter
+-l length -n cform
+-P filter
+-s seed
+-v 0..5
+-D name=val
+-b 
+-f 
+-h 
+-m 
+-O 
+-r 
+-V
