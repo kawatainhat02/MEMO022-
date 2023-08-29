@@ -12,6 +12,10 @@ class HelloWholeWorld {
   }
 }
 
+
+package
+public
+
 def
 var
 for(v)
