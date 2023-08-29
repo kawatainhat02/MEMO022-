@@ -16,7 +16,8 @@
 #include<float.h>
 #include<>
 #include<>
-#include<>
-#include<>
-#include<>
-#include<>
+#include<limits.h>
+#include<iso646.h>
+#include<uchar.h>
+#include<wchar.h>
+#include<wctype.h>
