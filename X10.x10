@@ -11,3 +11,9 @@ class HelloWholeWorld {
      Console.OUT.println("Goodbye");
   }
 }
+
+def
+var
+for(v)
+
+return
